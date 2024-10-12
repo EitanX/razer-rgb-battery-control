@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import openrazer.client
 
 dm = openrazer.client.DeviceManager()

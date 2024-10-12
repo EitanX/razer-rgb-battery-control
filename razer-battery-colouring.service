@@ -1,0 +1,10 @@
+[Unit]
+Description=RazerColourControl
+
+[Service]
+Type=oneshot
+ExecStart=/home/eitan/Desktop/razer-battery-colouring/run.py
+
+[Install]
+WantedBy=multi-user.target
+
